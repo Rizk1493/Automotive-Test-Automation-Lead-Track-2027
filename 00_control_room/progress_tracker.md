@@ -12,7 +12,7 @@
 
 | Skill | Baseline | Current Status | Target | Evidence |
 |---|---|---|---|---|
-| Python Fundamentals | Needs rebuild | RED | GREEN | Pending |
+| Python Fundamentals | Needs rebuild | ORANGE | GREEN | ShipThatCode Python Fundamentals completed; independent validation pending |
 | Python OOP | Weak | RED | GREEN | Pending |
 | Problem Solving | Needs work | RED | GREEN | Pending |
 | PyTest | Partial | ORANGE | GREEN | Pending |
