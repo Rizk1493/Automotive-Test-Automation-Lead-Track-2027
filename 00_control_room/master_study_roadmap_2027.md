@@ -15,6 +15,7 @@ The final profile combines:
 - Automotive Validation
 - Test Automation
 - Automotive Diagnostics
+- Automotive Standards Awareness
 - Debugging
 - DevOps for Testing
 - Software Quality
@@ -56,6 +57,35 @@ MASTERED requires later independent use inside integrated work without prompting
 
 ---
 
+# Standards Integration Principle
+
+Automotive standards are integrated into the engineering phase where they matter.
+
+The project does **not** add a separate ISO-theory week and does not require buying standards.
+
+Core mapping:
+
+- ISO 11898 series → CAN
+- ISO 17987 series → LIN
+- ISO 14229 series → UDS
+- ISO 15765-2 → DoCAN transport/network layer
+- ISO 13400 series → DoIP
+- ISO 21111 series → In-vehicle Ethernet context
+- ISO 26262 → Functional Safety working awareness for validation
+- ISO/SAE 21434 → Cybersecurity Engineering working awareness
+- ISO 21448 → SOTIF awareness, deeper only for ADAS-focused roles
+
+Adjacent specifications must be named correctly:
+
+- IEEE 802.3 → Ethernet foundation
+- AUTOSAR SOME/IP / Service Discovery → service-oriented Automotive communication
+- AUTOSAR DLT → Diagnostic Log and Trace
+- Automotive SPICE → process-assessment model, not an ISO standard
+
+Detailed learning depth, evidence rules, copyright constraints and portfolio-claim boundaries are defined in `automotive_standards_map.md`.
+
+---
+
 # Phase 0 - Environment and Engineering Workflow
 
 ## Objectives
@@ -66,6 +96,7 @@ MASTERED requires later independent use inside integrated work without prompting
 - Preserve existing repository work
 - Use professional Markdown notes
 - Define weekly evidence and mastery tracking
+- Maintain a zero-cost study environment unless legal commercial access already exists
 
 ## Expected Evidence
 
@@ -229,6 +260,13 @@ Rizk can structure and maintain an Automotive-oriented PyTest suite instead of o
 
 # Phase 5 - CAN / LIN / DBC Rebuild
 
+## Standards Context
+
+- ISO 11898 series — CAN
+- ISO 17987 series — LIN
+
+The goal is not clause memorization. Rizk should connect protocol behavior to validation evidence and realistic failure cases.
+
 ## CAN
 
 - frame structure
@@ -248,7 +286,7 @@ Rizk can structure and maintain an Automotive-oriented PyTest suite instead of o
 
 ## LIN
 
-- Master / Slave
+- commander/responder terminology awareness and common master/slave terminology used in industry
 - schedule tables
 - frames
 - signals
@@ -264,10 +302,19 @@ Rizk can structure and maintain an Automotive-oriented PyTest suite instead of o
 - Investigate wrong scaling
 - Analyze missing frames
 - Build realistic validation scenarios
+- Explain which behavior is protocol-level, database-level, tool-level, or application-level
 
 ---
 
 # Phase 6 - CANoe and CAPL Confidence Rebuild
+
+## Access Rule
+
+CANoe/CAPL are commercial. Use them hands-on only if legal access already exists.
+
+Do not buy licenses for this roadmap.
+
+If legal access is unavailable, preserve interview/workflow confidence using prior experience, exported traces/configuration examples where legally shareable, free CAN tooling, and realistic scenarios without claiming equivalent CANoe execution.
 
 ## CANoe
 
@@ -295,11 +342,18 @@ Rizk can structure and maintain an Automotive-oriented PyTest suite instead of o
 
 ## Exit Criteria
 
-Rizk can explain and work through realistic ECU communication/signal investigation scenarios using CANoe/CAPL concepts.
+Rizk can explain and work through realistic ECU communication/signal investigation scenarios using CANoe/CAPL concepts and clearly state actual tool access limitations.
 
 ---
 
 # Phase 7 - UDS / Automotive Diagnostics
+
+## Standards Context
+
+- ISO 14229 series — UDS application/session concepts
+- ISO 15765-2 — DoCAN transport/network layer for UDS over CAN
+
+Distinguish application-layer diagnostic behavior from transport-layer segmentation/flow behavior.
 
 ## Foundations
 
@@ -310,6 +364,9 @@ Rizk can explain and work through realistic ECU communication/signal investigati
 - Diagnostic timing
 - Diagnostic sessions
 - Preconditions
+- Application vs transport responsibilities
+- Single-frame vs multi-frame transport reasoning
+- Flow-control awareness
 
 ## Core Services
 
@@ -337,6 +394,7 @@ For services consider:
 - Timing
 - Recovery behavior
 - State transitions
+- Transport segmentation / flow / timeout cases where applicable
 
 ---
 
@@ -352,12 +410,22 @@ Combine:
 - Logging
 - Configuration
 - Reporting
+- Standards-aware traceability
 
 Build automation around existing protocol/tooling rather than implementing a complete UDS stack from scratch.
+
+The automation should test ECU behavior; it should not become a homemade UDS/ISO-TP stack project.
 
 ---
 
 # Phase 9 - Automotive Ethernet, DoIP, SOME/IP, and Network Validation
+
+## Standards / Specification Context
+
+- ISO 13400 series — DoIP
+- ISO 21111 series — In-vehicle Ethernet context
+- IEEE 802.3 — Ethernet foundation
+- AUTOSAR SOME/IP / Service Discovery — not ISO
 
 ## Automotive Ethernet
 
@@ -375,10 +443,12 @@ Develop practical validation/interview knowledge around:
 Focus on testing and diagnostics context:
 
 - Diagnostic communication over IP
+- vehicle discovery / announcement awareness
+- routing activation / connection workflow awareness
 - addressing/routing concepts
-- connection/activation workflow awareness
 - transport/network failure reasoning
 - UDS-over-DoIP validation scenarios
+- evidence using Wireshark/TShark
 
 ## SOME/IP
 
@@ -441,6 +511,7 @@ Build supporting modern Test Automation breadth without replacing the Automotive
 
 ## DLT
 
+- AUTOSAR DLT context
 - APID / CTID concepts
 - Log levels
 - Filtering
@@ -525,6 +596,7 @@ Do not pretend simulation equals real HIL hardware behavior.
 - Acceptance criteria
 - Traceability
 - Requirement coverage
+- Distinguish project requirements from standards-derived expectations
 
 ## Practical ISTQB Techniques
 
@@ -540,7 +612,7 @@ The goal is practical job readiness, not certification memorization.
 
 ---
 
-# Phase 14 - Software Quality, ASPICE, and Defect Management
+# Phase 14 - Software Quality, ASPICE, Functional Safety, Cybersecurity Awareness, and Defect Management
 
 ## Software Quality
 
@@ -560,6 +632,8 @@ The goal is practical job readiness, not certification memorization.
 
 ## ASPICE
 
+Automotive SPICE is not an ISO standard.
+
 Focus on validation relevance:
 
 - Requirements
@@ -571,6 +645,39 @@ Focus on validation relevance:
 - Evidence
 - Reviews
 - Process discipline
+
+## ISO 26262 Functional Safety — Working Awareness
+
+Focus on validation relevance:
+
+- Functional-safety lifecycle purpose
+- Safety goals / requirements awareness
+- ASIL meaning and rigor implications
+- Verification / validation evidence
+- Traceability
+- review / independence awareness
+- safety-related defect and release-risk thinking
+
+Do not position Rizk as a Functional Safety Engineer without real professional evidence.
+
+## ISO/SAE 21434 Cybersecurity Engineering — Working Awareness
+
+Focus on:
+
+- Cybersecurity lifecycle context
+- TARA awareness
+- Cybersecurity requirements
+- diagnostic/network attack-surface thinking
+- negative / misuse / access-control validation
+- evidence and vulnerability/defect handling awareness
+
+Do not turn the track into a penetration-testing specialization.
+
+## ISO 21448 SOTIF — Awareness
+
+Understand purpose, triggering conditions/scenarios and why intended-functionality limitations differ from malfunction-oriented functional safety.
+
+Increase depth if an ADAS / automated-driving target role requires it.
 
 ## Defect Management
 
@@ -613,6 +720,7 @@ Lead-level:
 - Metrics
 - Reporting
 - Release recommendation
+- Standards-derived evidence and compliance-claim boundaries
 
 ## Leadership
 
@@ -629,6 +737,8 @@ Lead-level:
 Recurring question:
 
 > **What changes if Rizk is the Test Lead?**
+
+Lead-level standards thinking includes asking which requirements, evidence, reviews, independence, traceability, and residual risks matter — not pretending to be the certification authority.
 
 ---
 
@@ -676,6 +786,7 @@ Demonstrates:
 - PyTest
 - UDS
 - ECU Validation
+- ISO 14229 / ISO 15765 standards context
 - Configuration
 - Logging
 - Reporting
@@ -683,7 +794,9 @@ Demonstrates:
 - CI/CD
 - Test design
 
-Do not implement a complete CAN or UDS protocol stack.
+Do not implement a complete CAN, UDS, or ISO-TP protocol stack.
+
+Do not claim formal ISO conformance; demonstrate standards-aware test design and traceability.
 
 ---
 
@@ -717,6 +830,7 @@ Consume exported:
 - Requirements
 - Test cases
 - Automation results
+- optional standards-context tags / source categories
 
 Check:
 
@@ -749,6 +863,18 @@ No certification-cramming unless explicitly requested.
 
 ---
 
+# Standards Learning and Access Policy
+
+The roadmap does not require purchasing ISO standards.
+
+Use legal public sources and summaries, open tooling documentation, and employer-provided licensed copies if available.
+
+Do not commit copyrighted standards documents or copied proprietary clauses to GitHub.
+
+Focus on engineering understanding and evidence, not memorizing edition numbers. When edition-specific behavior matters, confirm the current applicable edition at study time.
+
+---
+
 # Interview Preparation
 
 Interview practice runs continuously.
@@ -756,13 +882,14 @@ Interview practice runs continuously.
 ## Technical Areas
 
 - Python / PyTest
-- CAN / LIN / DBC
+- CAN / LIN / DBC + ISO 11898 / ISO 17987 context
 - CANoe / CAPL
-- UDS / Diagnostics
-- Automotive Ethernet / DoIP / SOME/IP
+- UDS / Diagnostics + ISO 14229 / ISO 15765 context
+- Automotive Ethernet / DoIP / SOME/IP + ISO 13400 context
 - HIL / SIL / System & Integration Validation
 - Requirements / Test Design
 - Defects / Quality / ASPICE
+- Functional Safety / Cybersecurity awareness
 - Debugging
 - CI/CD
 - Git / Linux
@@ -787,10 +914,11 @@ By early 2027, Rizk should be able to:
 
 - Build Python test automation from Requirements
 - Build and maintain PyTest suites
-- Explain and debug CAN/LIN behavior
-- Work confidently with UDS and ECU diagnostics
-- Use CANoe/CAPL confidently
+- Explain and debug CAN/LIN behavior and connect it to relevant ISO families
+- Work confidently with UDS and ECU diagnostics, including application vs transport responsibilities
+- Use CANoe/CAPL confidently where legal access exists and accurately describe access limitations otherwise
 - Demonstrate practical Automotive Ethernet/DoIP/SOME-IP validation knowledge
+- Explain the role of ISO 13400 in DoIP validation
 - Explain HIL/SIL and System/Integration validation practically
 - Analyze Automotive logs and failures
 - Turn Requirements into effective test designs
@@ -801,6 +929,8 @@ By early 2027, Rizk should be able to:
 - Use Linux and Docker for test workflows
 - Run automated tests through CI/CD
 - Explain ASPICE and Software Quality concepts practically
+- Explain ISO 26262 / ISO/SAE 21434 implications from a validation-engineer perspective without overstating experience
+- Recognize ISO 21448 SOTIF relevance for ADAS-focused validation
 - Plan, prioritize, and report testing as a Test Lead
 - Communicate confidently in technical English interviews
 - Support these claims with a professional Automotive-focused GitHub portfolio

@@ -18,13 +18,21 @@ Use the following states:
 |---|---|---|---|
 | ECU Validation |  |  |  |
 | CAN Fundamentals |  |  |  |
+| ISO 11898 CAN Context |  |  |  |
 | LIN Fundamentals |  |  |  |
+| ISO 17987 LIN Context |  |  |  |
 | DBC / Signal Decoding |  |  |  |
 | CANoe |  |  |  |
 | CAPL |  |  |  |
 | UDS |  |  |  |
+| ISO 14229 UDS Context |  |  |  |
+| ISO 15765-2 DoCAN / Transport Context |  |  |  |
 | DTC Analysis |  |  |  |
 | Diagnostic Sessions |  |  |  |
+| Automotive Ethernet |  |  |  |
+| ISO 13400 DoIP Context |  |  |  |
+| ISO 21111 / IEEE 802.3 Ethernet Context |  |  |  |
+| SOME/IP / Service Discovery Awareness |  |  |  |
 | Requirements-Based Testing |  |  |  |
 
 ---
@@ -42,6 +50,7 @@ Use the following states:
 | Test Data |  |  |  |
 | Logging / Reporting |  |  |  |
 | Automation Architecture |  |  |  |
+| Standards-Aware Test Traceability |  |  |  |
 
 ---
 
@@ -58,7 +67,7 @@ Use the following states:
 
 ---
 
-# Pillar 4 — Software Quality and Test Management
+# Pillar 4 — Software Quality, Standards, and Test Management
 
 | Skill | Status | Evidence | Revision Needed |
 |---|---|---|---|
@@ -72,6 +81,9 @@ Use the following states:
 | Defect Management |  |  |  |
 | Software Quality |  |  |  |
 | ASPICE |  |  |  |
+| ISO 26262 Functional Safety Awareness |  |  |  |
+| ISO/SAE 21434 Cybersecurity Awareness |  |  |  |
+| ISO 21448 SOTIF Awareness |  |  |  |
 | Risk-Based Testing |  |  |  |
 | Test Planning |  |  |  |
 | Test Reporting |  |  |  |
@@ -101,6 +113,7 @@ Use the following states:
 | Prioritization |  |  |  |
 | Risk Management |  |  |  |
 | Coverage Decisions |  |  |  |
+| Standards / Evidence Risk Thinking |  |  |  |
 | Task Distribution |  |  |  |
 | Blocker Management |  |  |  |
 | Defect Triage |  |  |  |
@@ -117,13 +130,17 @@ Use the following states:
 |---|---|---|
 | Tell Me About Yourself |  |  |
 | Automotive Experience |  |  |
-| CAN / LIN |  |  |
-| UDS / Diagnostics |  |  |
+| CAN / LIN + Standards Context |  |  |
+| UDS / Diagnostics + ISO 14229 / ISO 15765 |  |  |
 | CANoe / CAPL |  |  |
+| Automotive Ethernet / DoIP / SOME/IP |  |  |
 | Python / PyTest |  |  |
 | Requirements / Test Design |  |  |
 | Defects |  |  |
 | ASPICE / Quality |  |  |
+| ISO 26262 Functional Safety Awareness |  |  |
+| ISO/SAE 21434 Cybersecurity Awareness |  |  |
+| ISO 21448 SOTIF Awareness |  |  |
 | CI/CD |  |  |
 | Test Lead Scenarios |  |  |
 | English Confidence |  |  |
@@ -137,6 +154,8 @@ Use the following states:
 | ECU Diagnostic Regression Automation Framework |  |  |
 | Automotive Failure Evidence Correlator |  |  |
 | Automotive Validation Coverage Checker |  |  |
+| Standards Map / Engineering Notes |  |  |
+| Standards-Aware Requirement/Test Traceability Sample |  |  |
 | Professional README Files |  |  |
 | CI Pipelines |  |  |
 | Test Reports |  |  |
@@ -153,12 +172,19 @@ Before declaring job readiness, Rizk should be able to answer yes to most of the
 - Can I write Automotive-oriented Python automation from a requirement without being guided line by line?
 - Can I structure and maintain PyTest suites?
 - Can I explain and debug CAN behavior confidently?
+- Can I explain how ISO 11898 relates to the CAN behavior I validate?
+- Can I explain LIN and the role of the ISO 17987 family?
 - Can I reason about UDS sessions, services, NRCs, and DTCs?
-- Can I use CANoe/CAPL confidently in realistic scenarios?
+- Can I distinguish ISO 14229 application/session behavior from ISO 15765-2 transport behavior?
+- Can I use CANoe/CAPL confidently where I have legal access and describe limitations accurately where I do not?
+- Can I explain DoIP validation using ISO 13400 context and Wireshark evidence?
+- Can I distinguish ISO standards from AUTOSAR specifications and Automotive SPICE?
 - Can I investigate failures using logs and traces?
 - Can I convert requirements into effective test cases and edge cases?
 - Can I write a high-quality defect report?
 - Can I explain Software Quality and ASPICE practically?
+- Can I explain ISO 26262 and ISO/SAE 21434 implications from a validation-engineer perspective?
+- Can I explain when ISO 21448 SOTIF becomes relevant?
 - Can I use Git/GitHub professionally?
 - Can I run automated tests through CI/CD?
 - Can I discuss release risk and testing priorities as a Test Lead?
