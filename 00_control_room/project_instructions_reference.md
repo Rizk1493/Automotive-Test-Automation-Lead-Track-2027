@@ -13,6 +13,7 @@ The intended professional profile combines:
 - Automotive Validation
 - Test Automation
 - Automotive Diagnostics
+- Automotive Standards Awareness
 - Debugging
 - DevOps for Testing
 - Software Quality
@@ -370,6 +371,49 @@ Rebuild strong interview-ready confidence in:
 
 Use realistic failure scenarios rather than only definitions.
 
+CANoe/CAPL are commercial tools. Use them hands-on only where legal access already exists. If legal access is unavailable, preserve workflow and interview confidence through prior professional exposure, legal exported evidence, free CAN tooling, simulation, and realistic scenarios without claiming that free tooling is a full CANoe replacement.
+
+---
+
+## Automotive Standards Integration
+
+Standards are integrated into the engineering phase where they naturally matter. Do not create a separate clause-memorization track.
+
+Core mapping:
+
+- ISO 11898 series → CAN
+- ISO 17987 series → LIN
+- ISO 14229 series → UDS
+- ISO 15765-2 → DoCAN transport/network layer
+- ISO 13400 series → DoIP
+- ISO 21111 series → In-vehicle Ethernet context
+- ISO 26262 → Functional Safety working awareness for validation
+- ISO/SAE 21434 → Cybersecurity Engineering working awareness
+- ISO 21448 → SOTIF awareness; deepen only when ADAS/automated-driving roles require it
+
+Adjacent specifications must be named correctly:
+
+- IEEE 802.3 → Ethernet foundation
+- AUTOSAR SOME/IP / Service Discovery → service-oriented Automotive communication
+- AUTOSAR DLT → Diagnostic Log and Trace
+- Automotive SPICE → process-assessment model, not an ISO standard
+
+Learning depth:
+
+- PRACTICAL for communication/diagnostic standards directly used in validation
+- WORKING AWARENESS for Functional Safety, Cybersecurity, and in-vehicle Ethernet context
+- AWARENESS for SOTIF unless the target role requires deeper coverage
+
+For standards-related work, use:
+
+**Requirement / protocol expectation → Test condition → Test case → Automation / execution → Evidence → Traceability → Defect / quality decision**
+
+Do not treat knowing a standard number as mastery. Require realistic test design, evidence interpretation, and interview explanation.
+
+Do not claim ISO certification, formal compliance, conformance certification, or safety sign-off authority without real professional evidence.
+
+Use `automotive_standards_map.md` as the detailed standards reference and evidence map.
+
 ---
 
 ## Debugging Track
@@ -432,6 +476,37 @@ CI/CD must eventually run real project tests rather than demonstration-only scri
 
 ---
 
+## Zero-Cost and Access Rule
+
+The study and portfolio stack must remain zero-cost.
+
+Default to:
+
+- Free/open-source tooling
+- Free public documentation
+- GitHub public-repository capabilities
+- Simulation and exported evidence
+
+Commercial tools, paid standards, or licensed enterprise systems may be used only when Rizk already has legitimate access through work or another authorized source.
+
+Do not require purchasing:
+
+- CANoe / CANalyzer / Vector licenses
+- Commercial HIL hardware
+- Paid ALM tools
+- Paid ISO standards
+- Paid Docker products
+
+Do not use pirated tools, standards, or unauthorized proprietary material.
+
+Use legal public references and employer-provided licensed standards when legitimately available.
+
+Do not commit copyrighted standards PDFs or copied proprietary clauses to GitHub.
+
+Windows remains the primary Automotive workstation; the separate Ubuntu laptop is the Linux/DevOps/simulation workstation. WSL is not required while that Ubuntu machine is available.
+
+---
+
 ## Do Not Reinvent Existing Automotive Tools
 
 Portfolio projects must represent software an Automotive Test Automation or Validation Engineer could realistically build or maintain.
@@ -447,6 +522,7 @@ Avoid rebuilding:
 - Jira
 - DOORS
 - Complete UDS protocol stacks
+- Complete ISO-TP / DoIP protocol stacks
 - Complete CAN protocol stacks
 - Full test-management systems
 
@@ -537,6 +613,8 @@ Use realistic defect and release scenarios.
 
 ## ASPICE
 
+Automotive SPICE is a process-assessment model, not an ISO standard.
+
 Teach ASPICE practically rather than through memorized definitions.
 
 Focus on testing/validation relevance including:
@@ -621,6 +699,7 @@ Require meaningful evidence from:
 - Markdown notes
 - Git commits
 - Test documentation
+- Standards-aware test rationale where relevant
 - Interview practice
 - Leadership scenarios when relevant
 - Weakness review
@@ -678,10 +757,11 @@ By early 2027, Rizk should be able to:
 
 - Build Python test automation from requirements
 - Build and maintain PyTest suites
-- Explain and debug CAN/LIN behavior
-- Work confidently with UDS and ECU diagnostics
-- Use CANoe/CAPL confidently
-- Analyze automotive logs and test failures
+- Explain and debug CAN/LIN behavior and connect it to ISO 11898 / ISO 17987 context
+- Work confidently with UDS and ECU diagnostics, including ISO 14229 application/session behavior and ISO 15765-2 transport responsibilities
+- Use CANoe/CAPL confidently where legal access exists and accurately describe access limitations otherwise
+- Demonstrate practical Automotive Ethernet/DoIP/SOME/IP validation knowledge and explain ISO 13400 context
+- Analyze Automotive logs and test failures
 - Turn requirements into effective test designs
 - Apply Boundary Value, Equivalence Partitioning, state-based, and risk-based testing
 - Create high-quality defects
@@ -689,11 +769,13 @@ By early 2027, Rizk should be able to:
 - Use Git/GitHub professionally
 - Use Linux and Docker for test workflows
 - Run automated tests through CI/CD
-- Explain practical ASPICE and Software Quality concepts
-- Plan, prioritize, and report testing as a Test Lead
+- Explain practical ASPICE and Software Quality concepts and distinguish Automotive SPICE from ISO standards
+- Explain ISO 26262 and ISO/SAE 21434 implications from a validation-engineer perspective without overstating experience
+- Recognize when ISO 21448 SOTIF is relevant, especially for ADAS/automated-driving validation
+- Plan, prioritize, and report testing as a Test Lead, including standards/evidence risk thinking
 - Communicate confidently in technical English interviews
 - Support these claims with a professional Automotive-focused GitHub portfolio
 
 The central goal remains:
 
-**Build Rizk into a hands-on Automotive Test Automation / Validation Engineer with strong automation, debugging, software quality, defect management, DevOps, and Test Lead / Test Management capability by early 2027.**
+**Build Rizk into a hands-on Automotive Test Automation / Validation Engineer with strong Automotive Standards awareness, automation, debugging, software quality, defect management, DevOps, and Test Lead / Test Management capability by early 2027.**
