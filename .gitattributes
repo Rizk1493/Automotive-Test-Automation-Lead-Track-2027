@@ -1,0 +1,17 @@
+# Normalize text files across Windows and Ubuntu.
+* text=auto
+
+# Cross-platform source and configuration files.
+.gitattributes text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.sh text eol=lf
+
+# Windows-native scripts.
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
