@@ -82,7 +82,7 @@ A skill is not MASTERED after one easy exercise.
 
 | Week | Dates | Planned Hours | Completed Hours | Main Focus | Result |
 |---|---|---:|---:|---|---|
-| 01 | 27 Aug-2 Sep 2026 | 45 | 0 | Python Foundations Rebuild I | NOT STARTED |
+| 01 | 30 Aug-5 Sep 2026 | 45 | 0 | Python Foundations Rebuild I | NOT STARTED |
 
 Add one row for each new week.
 
@@ -92,15 +92,15 @@ Add one row for each new week.
 
 | Session | Date | Planned | Completed | Main Focus | Evidence | Status |
 |---|---|---:|---:|---|---|---|
-| 01 | Thu 27 Aug | 5h | 0h | Variables + I/O + Types + Conversion | Pending | NOT STARTED |
-| 02 | Fri 28 Aug | 5h | 0h | Comparisons + Boolean Expressions | Pending | NOT STARTED |
-| 03 | Fri 28 Aug | 5h | 0h | if / elif / else + Boundaries | Pending | NOT STARTED |
-| 04 | Sat 29 Aug | 5h | 0h | for Loops | Pending | NOT STARTED |
-| 05 | Sat 29 Aug | 5h | 0h | while Loops + Stop Conditions | Pending | NOT STARTED |
-| 06 | Sun 30 Aug | 5h | 0h | Strings | Pending | NOT STARTED |
-| 07 | Mon 31 Aug | 5h | 0h | Integrated Automotive Problem I | Pending | NOT STARTED |
-| 08 | Tue 1 Sep | 5h | 0h | Integrated Automotive Problem II + Test Design | Pending | NOT STARTED |
-| 09 | Wed 2 Sep | 5h | 0h | Assessment + Interview + Git/Portfolio Review | Pending | NOT STARTED |
+| 01 | Sun 30 Aug | 5h | 0h | Variables + I/O + Types + Conversion | Pending | NOT STARTED |
+| 02 | Mon 31 Aug | 5h | 0h | Comparisons + Boolean Expressions | Pending | NOT STARTED |
+| 03 | Tue 1 Sep | 5h | 0h | if / elif / else + Boundaries | Pending | NOT STARTED |
+| 04 | Wed 2 Sep | 5h | 0h | for Loops | Pending | NOT STARTED |
+| 05 | Thu 3 Sep | 5h | 0h | while Loops + Stop Conditions | Pending | NOT STARTED |
+| 06 | Fri 4 Sep | 5h | 0h | Strings | Pending | NOT STARTED |
+| 07 | Fri 4 Sep | 5h | 0h | Integrated Automotive Problem I | Pending | NOT STARTED |
+| 08 | Sat 5 Sep | 5h | 0h | Integrated Automotive Problem II + Test Design | Pending | NOT STARTED |
+| 09 | Sat 5 Sep | 5h | 0h | Assessment + Interview + Git/Portfolio Review | Pending | NOT STARTED |
 
 ---
 

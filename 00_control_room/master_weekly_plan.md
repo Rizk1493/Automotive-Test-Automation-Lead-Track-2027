@@ -7,8 +7,8 @@ with Test Lead / Test Management capability**
 
 ## Timeline
 
-- Start: **27 August 2026**
-- Core roadmap completion target: **20 January 2027**
+- Start: **30 August 2026**
+- Core roadmap completion target: **23 January 2027**
 - Career target: **Early 2027**
 - Study capacity: **45 hours/week**
 - One session: **5 hours**
@@ -22,27 +22,27 @@ The plan is intensive but evidence-driven. A week may carry unfinished work forw
 
 | Week | Dates | Main Focus | Primary Evidence |
 |---|---|---|---|
-| 01 | 27 Aug-2 Sep | Python Foundations Rebuild I | Blank-screen Automotive programs using input, conversion, conditions, loops, strings, tests and edge cases |
-| 02 | 3-9 Sep | Python Foundations II: Collections + Functions | Automotive data-processing tasks using lists/dicts/functions and cumulative fundamentals |
-| 03 | 10-16 Sep | Python Engineering + OOP + Problem Solving | Modular Automotive program using files/config, exceptions, OOP, logging and independent decomposition |
-| 04 | 17-23 Sep | Git/GitHub + Linux + PyTest Foundations | Daily Git workflow, tester-oriented Linux tasks, first Automotive PyTest suite |
-| 05 | 24-30 Sep | Professional PyTest Automation | Fixtures, parametrization, markers, conftest, test data, reports, mocking basics, framework structure |
-| 06 | 1-7 Oct | CAN + LIN + DBC Rebuild + ISO 11898 / ISO 17987 Context | CAN/LIN validation scenarios, DBC/raw-to-physical reasoning, signal edge cases, standards-aware protocol explanation |
-| 07 | 8-14 Oct | CANoe + CAPL Confidence Rebuild | Realistic trace/debugging scenarios, CAPL event/timer/test logic; commercial tooling only where legal access exists |
-| 08 | 15-21 Oct | UDS / Diagnostics + ISO 14229 / ISO 15765-2 | Session/service/NRC/DTC/transport test design with positive, negative, timing and state cases |
-| 09 | 22-28 Oct | UDS Automation + ECU Validation | Python/OOP/PyTest diagnostic regression components using existing protocol/tool abstractions with standards-aware traceability |
-| 10 | 29 Oct-4 Nov | Automotive Ethernet + DoIP + SOME/IP + Wireshark + ISO 13400 / ISO 21111 Context | Packet inspection, DoIP/SOME-IP validation thinking, Wireshark evidence, transport/network failure cases |
-| 11 | 5-11 Nov | DLT + adb/logcat + Failure Debugging + HIL/SIL/System Integration | Multi-source failure investigation, HIL/SIL role awareness, integration/system validation scenarios |
-| 12 | 12-18 Nov | Requirements-Based Testing + Practical ISTQB Test Design | Requirement review, traceability, EP, BVA, Decision Tables, State Transition tests |
-| 13 | 19-25 Nov | Software Quality + ASPICE + Defect Management + ISO 26262 / ISO/SAE 21434 Awareness | Quality/ASPICE evidence, professional defect reports, safety/cybersecurity-aware validation scenarios, triage and regression thinking |
-| 14 | 26 Nov-2 Dec | Robot Framework + API Testing | Maintainable Robot tests and PyTest/API validation without losing Automotive focus |
-| 15 | 3-9 Dec | Docker + CI/CD + GitHub Actions | Real project tests executed in reproducible environment with CI reports/artifacts/gates |
-| 16 | 10-16 Dec | Flagship Project 1 - Diagnostic Regression Framework I | Architecture, requirements, configuration, diagnostic abstractions, initial automated tests, standards-context traceability |
-| 17 | 17-23 Dec | Flagship Project 1 - Diagnostic Regression Framework II | Expanded regression suite, reporting, traceability, CI, documentation, standards context and limitations |
-| 18 | 24-30 Dec | Test Management + Test Leadership + Risk-Based Testing | Planning, estimation, prioritization, coverage, defect triage, quality/reporting, standards/evidence risk and release scenarios |
-| 19 | 31 Dec-6 Jan | Flagship Project 2 - Failure Evidence Correlator | Correlate exported CAN/diagnostic/DLT/logcat/test evidence around failures |
-| 20 | 7-13 Jan | Validation Coverage Checker + Quality/Defect Portfolio Integration | Requirements/tests/results reconciliation, coverage reporting, quality/defect/release evidence |
-| 21 | 14-20 Jan | Final Integration + Portfolio + Full Mock Interviews + Gap Closure | Job-readiness assessment, GitHub hardening, integrated technical/Lead mock interviews including standards context |
+| 01 | 30 Aug-5 Sep | Python Foundations Rebuild I | Blank-screen Automotive programs using input, conversion, conditions, loops, strings, tests and edge cases |
+| 02 | 6-12 Sep | Python Foundations II: Collections + Functions | Automotive data-processing tasks using lists/dicts/functions and cumulative fundamentals |
+| 03 | 13-19 Sep | Python Engineering + OOP + Problem Solving | Modular Automotive program using files/config, exceptions, OOP, logging and independent decomposition |
+| 04 | 20-26 Sep | Git/GitHub + Linux + PyTest Foundations | Daily Git workflow, tester-oriented Linux tasks, first Automotive PyTest suite |
+| 05 | 27 Sep-3 Oct | Professional PyTest Automation | Fixtures, parametrization, markers, conftest, test data, reports, mocking basics, framework structure |
+| 06 | 4-10 Oct | CAN + LIN + DBC Rebuild + ISO 11898 / ISO 17987 Context | CAN/LIN validation scenarios, DBC/raw-to-physical reasoning, signal edge cases, standards-aware protocol explanation |
+| 07 | 11-17 Oct | CANoe + CAPL Confidence Rebuild | Realistic trace/debugging scenarios, CAPL event/timer/test logic; commercial tooling only where legal access exists |
+| 08 | 18-24 Oct | UDS / Diagnostics + ISO 14229 / ISO 15765-2 | Session/service/NRC/DTC/transport test design with positive, negative, timing and state cases |
+| 09 | 25-31 Oct | UDS Automation + ECU Validation | Python/OOP/PyTest diagnostic regression components using existing protocol/tool abstractions with standards-aware traceability |
+| 10 | 1-7 Nov | Automotive Ethernet + DoIP + SOME/IP + Wireshark + ISO 13400 / ISO 21111 Context | Packet inspection, DoIP/SOME-IP validation thinking, Wireshark evidence, transport/network failure cases |
+| 11 | 8-14 Nov | DLT + adb/logcat + Failure Debugging + HIL/SIL/System Integration | Multi-source failure investigation, HIL/SIL role awareness, integration/system validation scenarios |
+| 12 | 15-21 Nov | Requirements-Based Testing + Practical ISTQB Test Design | Requirement review, traceability, EP, BVA, Decision Tables, State Transition tests |
+| 13 | 22-28 Nov | Software Quality + ASPICE + Defect Management + ISO 26262 / ISO/SAE 21434 Awareness | Quality/ASPICE evidence, professional defect reports, safety/cybersecurity-aware validation scenarios, triage and regression thinking |
+| 14 | 29 Nov-5 Dec | Robot Framework + API Testing | Maintainable Robot tests and PyTest/API validation without losing Automotive focus |
+| 15 | 6-12 Dec | Docker + CI/CD + GitHub Actions | Real project tests executed in reproducible environment with CI reports/artifacts/gates |
+| 16 | 13-19 Dec | Flagship Project 1 - Diagnostic Regression Framework I | Architecture, requirements, configuration, diagnostic abstractions, initial automated tests, standards-context traceability |
+| 17 | 20-26 Dec | Flagship Project 1 - Diagnostic Regression Framework II | Expanded regression suite, reporting, traceability, CI, documentation, standards context and limitations |
+| 18 | 27 Dec-2 Jan | Test Management + Test Leadership + Risk-Based Testing | Planning, estimation, prioritization, coverage, defect triage, quality/reporting, standards/evidence risk and release scenarios |
+| 19 | 3-9 Jan | Flagship Project 2 - Failure Evidence Correlator | Correlate exported CAN/diagnostic/DLT/logcat/test evidence around failures |
+| 20 | 10-16 Jan | Validation Coverage Checker + Quality/Defect Portfolio Integration | Requirements/tests/results reconciliation, coverage reporting, quality/defect/release evidence |
+| 21 | 17-23 Jan | Final Integration + Portfolio + Full Mock Interviews + Gap Closure | Job-readiness assessment, GitHub hardening, integrated technical/Lead mock interviews including standards context |
 
 ---
 

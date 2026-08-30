@@ -2,7 +2,7 @@
 
 ## Dates
 
-**27 August 2026 - 2 September 2026**
+**30 August 2026 - 5 September 2026**
 
 ## Total Study Time
 
@@ -73,7 +73,7 @@ Edge Cases / Boundary Values
 
 ---
 
-# Session 1 - Thursday 27 August
+# Session 1 - Sunday 30 August
 ## 5 Hours
 ### Variables + Input/Output + Data Types + Conversion
 
@@ -116,7 +116,7 @@ Mastery target:
 
 ---
 
-# Session 2 - Friday 28 August
+# Session 2 - Monday 31 August
 ## 5 Hours
 ### Comparisons + Boolean Expressions
 
@@ -151,7 +151,7 @@ Independent evidence:
 
 ---
 
-# Session 3 - Friday 28 August
+# Session 3 - Tuesday 1 September
 ## 5 Hours
 ### if / elif / else + Boundary Thinking
 
@@ -186,7 +186,7 @@ Independent evidence:
 
 ---
 
-# Session 4 - Saturday 29 August
+# Session 4 - Wednesday 2 September
 ## 5 Hours
 ### for Loops
 
@@ -219,7 +219,7 @@ Independent evidence:
 
 ---
 
-# Session 5 - Saturday 29 August
+# Session 5 - Thursday 3 September
 ## 5 Hours
 ### while Loops + Stop Conditions
 
@@ -251,7 +251,7 @@ Independent evidence:
 
 ---
 
-# Session 6 - Sunday 30 August
+# Session 6 - Friday 4 September
 ## 5 Hours
 ### Strings for Validation and Test Data
 
@@ -289,7 +289,7 @@ Independent evidence:
 
 ---
 
-# Session 7 - Monday 31 August
+# Session 7 - Friday 4 September
 ## 5 Hours
 ### Integrated Automotive Problem I
 
@@ -326,7 +326,7 @@ Validate spontaneous recall rather than topic-by-topic prompting.
 
 ---
 
-# Session 8 - Tuesday 1 September
+# Session 8 - Saturday 5 September
 ## 5 Hours
 ### Integrated Automotive Problem II + Practical Test Design
 
@@ -352,7 +352,7 @@ The testing technique should be applied to the actual Requirement rather than me
 
 ---
 
-# Session 9 - Wednesday 2 September
+# Session 9 - Saturday 5 September
 ## 5 Hours
 ### Week 01 Assessment + Review + Portfolio Evidence
 
